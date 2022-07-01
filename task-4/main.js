@@ -15,11 +15,10 @@ prompt.get('input', function (err, result) {
     let arrnew = []
 
 for(i = 0 ; i < arr.length ; i++){
+
     if(!arrnew.includes(arr[i])){
         arrnew.push(arr[i])
+        console.log(arr[i]);
     }
 }
-console.log(arrnew);
-
-
 });
